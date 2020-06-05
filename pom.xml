@@ -4,7 +4,7 @@
 
     <groupId>rocks.vinu</groupId>
     <artifactId>spring-boot-auto-configure</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <modules>
         <module>kafka-spring-boot-autoconfigure</module>
         <module>kafka-spring-boot-starter</module>
@@ -12,5 +12,11 @@
 
     <packaging>pom</packaging>
     <name>Spring Boot AutoConfiguration</name>
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub vinu Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/vinu/rockskafkaautoconfiguration</url>
+        </repository>
+    </distributionManagement>
 </project>
